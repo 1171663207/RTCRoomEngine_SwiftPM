@@ -37,28 +37,7 @@ let package = Package(
                 .product(name: "TXLiteAVSDK_ReplayKit", package: "professional_swiftpm"), 
                 .product(name: "Chat_SDK_SwiftPM", package: "chat_sdk_swiftpm")
             ],
-            sources: ["RoomEngine.swift"],
-            linkerSettings: [
-                .linkedFramework("AVKit"),
-                .linkedFramework("AudioToolBox"),
-                .linkedFramework("VideoToolBox"),
-                .linkedFramework("GLKit"),
-                .linkedFramework("AssetsLibrary"),
-                .linkedFramework("SystemConfiguration"),
-                .linkedFramework("CoreTelephony"),
-                .linkedFramework("CoreMotion"),
-                .linkedFramework("AVFoundation"),
-                .linkedFramework("OpenGLES"),
-                .linkedFramework("Accelerate"),
-                .linkedFramework("ReplayKit"),
-                .linkedFramework("MetalKit"),
-                .linkedFramework("MobileCoreServices"),
-                .linkedFramework("CoreMedia"),
-                .linkedFramework("MetalPerformanceShaders"),
-                .linkedLibrary("sqlite3.0"),
-                .linkedLibrary("c++"),
-                .linkedLibrary("resolv")
-            ]
+            sources: ["RoomEngine.swift"]
         )
     ]
 )

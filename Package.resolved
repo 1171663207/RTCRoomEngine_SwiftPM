@@ -1,13 +1,13 @@
 {
-  "originHash" : "182379ff906db1578621e7403859061faf701b42f053ac1a3a11903de7e8ee65",
+  "originHash" : "93cbaa48ba778b9fd2e4db80e5ed9d87d39810c0e24c9e5502ecc45779464488",
   "pins" : [
     {
       "identity" : "chat_sdk_swiftpm",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Tencent-RTC/Chat_SDK_SwiftPM.git",
       "state" : {
-        "revision" : "7fbf2a4f5a08b3fbd719bfa2c395d979831921c0",
-        "version" : "8.3.6498"
+        "revision" : "b7af8a5ffb915ff7e94ce21d8ab04884c8757f79",
+        "version" : "8.5.6864"
       }
     },
     {
