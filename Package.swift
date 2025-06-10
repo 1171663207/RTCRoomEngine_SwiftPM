@@ -14,7 +14,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/Tencent-RTC/Professional_SwiftPM.git", .branch("main")),
+        .package(url: "https://github.com/Tencent-RTC/Professional_SwiftPM", from: "12.5.0"),
         .package(url: "https://github.com/Tencent-RTC/Chat_SDK_SwiftPM.git", from: "8.3.6498")
     ],
     targets: [
@@ -22,7 +22,7 @@ let package = Package(
         .binaryTarget(
             name: "RTCRoomEngine",
             url: "https://liteav.sdk.qcloud.com/app/tuikit/download/release/2.9/RTCRoomEngine_iOS_2.9.0.560_SDK.zip",
-            checksum: "198ff5978ebb80b9279107d501fed36127c2285e0e5efd68fd52644c23758006"
+            checksum: "68a235b71c6ff81efeeb161e79c1ce3530e362a689bbc658852dea40b95a9d2b"
         ),
         .target(
             name: "RoomEngine",
