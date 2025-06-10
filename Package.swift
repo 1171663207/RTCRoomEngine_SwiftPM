@@ -19,11 +19,6 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(
-            name: "RTCCommon",
-            url: "https://sdk-liteav-1252463788.cos.ap-hongkong.myqcloud.com/app/tuikit/download/release/3.1/RTCCommon-1.3.0.zip",
-            checksum: "34a54148ed3c7b97185c5ab3b90676eff38c4b2a4f54fdd39dd3cb53e94ca9e3"
-        ),
-        .binaryTarget(
             name: "RTCRoomEngine",
             url: "https://liteav.sdk.qcloud.com/app/tuikit/download/customer/zhenxin/RTCRoomEngine.xcframework.zip",
             checksum: "094f773e4b6b757908d8d53c30d27a64cefb06a03a14e094b34d3eb5aabc72ce"
@@ -31,7 +26,6 @@ let package = Package(
         .target(
             name: "RoomEngine",
             dependencies: [
-                .target(name: "RTCCommon"),
                 .target(name: "RTCRoomEngine"),
                 .product(name: "Professional_SwiftPM", package: "Professional_swiftpm"),
                 .product(name: "TXLiteAVSDK_ReplayKit", package: "professional_swiftpm"), 
